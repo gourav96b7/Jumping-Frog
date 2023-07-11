@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumping Froggy</title>
+    <link href="style.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <h1>JUMPING FROGGY</h1>
+        <p>Welcome to Jumping Froggy, a game where you help Froggy and friends by writing CSS code! Guide this frog to the lilypad on the right by using the <span class="underline focus">justify-content</span> property, which aligns items horizontally and accepts the following values:</p>
+        <ul>
+           <li><span class="focus">flex-start</span>: Items align to the left side of the container.</li>
+           <li><span class="focus">flex-end</span>: Items align to the right side of the container.</li>
+           <li><span class="focus">center</span>: Items align at the center of the container.</li>
+           <li><span class="focus">space-between</span>: Items display with equal spacing between them.
+           </li>
+           <li><span class="focus">space-around</span>: Items display with equal spacing around them.</li>
+        </ul>
+        <p>For example, <span class="focus">justify-content: flex-end;</span> will move the frog to the right. </p>
+
+        <section class="editor">
+            <section class="css">
+                <section class="numbers">
+                    1<br>
+                    2<br>
+                    3<br>
+                    4<br>
+                    5<br>
+                    6<br>
+                    7<br>
+                    8<br>
+                    9<br>
+                    10
+                </section>
+                <pre># pond &#123;
+    display: flex;</pre>
+                <textarea id="code" autofocus style="height: 1.5rem;">justify-content: ;</textarea>
+                <pre>&#125;</pre>
+                <button class="next disabled">Next</button>
+            </section>
+        </section>
+    </main>
+    <aside>
+        <section id="container">
+            <section><i class="fa-solid fa-frog fa-beat"></i></section>
+            <section id="box"></section>
+        </section>
+    </aside>
+</body>
+</html>

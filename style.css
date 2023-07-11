@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    display: flex;
+    column-gap: 2rem;
+    background-color: rgb(50, 145, 50);
+    font-family: 'PT Sans', sans-serif;
+}
+
+main {
+    width: 48%;
+    padding: 2rem;
+}
+
+.focus {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    display: inline-block;
+    background-color: rgb(87, 168, 87);
+}
+
+.underline {
+    border-bottom: 1px solid white;
+}
+
+main h1 {
+    font-family: cursive;
+}
+
+main p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+main ul {
+    margin: 1rem 2rem;
+    line-height: 1.5rem;
+}
+
+main ul li {
+    padding-bottom: 0.2rem;
+}
+
+.editor {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #777;
+    width: 100%;
+    position: relative;
+}
+
+.css {
+    position: relative;
+    height: 16rem;
+    padding: 10px 10px 10px 40px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.numbers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 10px 6px;
+    text-align: right;
+    background-color: #999;
+    color: #D5D5D5;
+}
+
+#code {
+    margin-left: 2rem;
+    background-color: white;
+    color: black;
+    border-style: none;
+    resize: none;
+    display: block;
+    width: calc(100% - 2rem);
+    border: none;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1rem;
+    outline: none;
+    resize: none;
+    overflow: auto;
+}
+
+.next {
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    padding-top: 0.3rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #D11606;
+    border: none;
+    border-radius: 0.2rem;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    appearance: none;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+aside {
+    background-color: rgb(65, 65, 104);
+    width: 45%;
+    display: fixed;
+    bottom: 0;
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+#container {
+    display: flex;
+}
+
+#box {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: rgb(50, 145, 50);
+    float: right;
+    position: absolute;
+    right: 7rem;
+    box-shadow: 0 0 13px white;
+}
